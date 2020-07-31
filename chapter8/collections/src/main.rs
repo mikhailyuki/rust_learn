@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 fn main() {
     // let mut v: Vec<i32> = Vec::new();
     // v.push(5);
@@ -9,7 +16,8 @@ fn main() {
     // let third = &v[100];
     // let third = v.get(100);
     let first = &v[0];
-    v.push(6);  // Error出ないぞ…？
+    v.push(6);
+    println!("{}", first);
 
     let v2 = vec![100, 32, 57];
     for i in &v2 {
